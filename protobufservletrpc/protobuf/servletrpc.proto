@@ -1,0 +1,7 @@
+option java_outer_classname = "ServletRpcProtos";
+option java_package = "org.xy9.protobufservletrpc.lib";
+
+message ServiceRequest {
+	required int32 method_id = 1;
+	required bytes arguments = 2;
+}
